@@ -1,0 +1,22 @@
+# Files and directories created by pub.
+.dart_tool/
+.packages
+pubspec.lock
+
+# Coverage output
+coverage/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+
+# Build output
+build/
+doc/api/
+
+# Local AI assistant notes (also in .git/info/exclude; pub does not read that file)
+CLAUDE.md

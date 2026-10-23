@@ -1,0 +1,28 @@
+name: xirr
+description: >-
+  Fast, robust XIRR, XNPV, CAGR and IRR for Dart and Flutter. Excel-compatible,
+  SIP and mutual fund returns, custom day counts and solvers, pure Dart.
+version: 0.0.1
+homepage: https://github.com/Rishav1995-roy/xirr
+repository: https://github.com/Rishav1995-roy/xirr
+issue_tracker: https://github.com/Rishav1995-roy/xirr/issues
+
+topics:
+  - finance
+  - xirr
+  - investment
+  - irr
+  - math
+
+screenshots:
+  - description: 'A 12-month SIP and its XIRR in a few lines of Dart.'
+    path: doc/hero.png
+  - description: 'Monthly SIP outflows and the final value, with the computed XIRR.'
+    path: doc/cashflows.png
+
+environment:
+  sdk: ^3.6.0
+
+dev_dependencies:
+  lints: '>=5.1.0 <7.0.0'
+  test: ^1.25.0
