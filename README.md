@@ -308,6 +308,10 @@ dart test
 
 before opening a pull request, and add a test for every behaviour change.
 
+## Disclaimer
+
+This package is a calculation library. Its results are for information only and are not financial, investment or tax advice. Check figures that matter against an independent source.
+
 ## License
 
 MIT, see [LICENSE](LICENSE). Copyright (c) 2026 Rishav Deb Roy.
