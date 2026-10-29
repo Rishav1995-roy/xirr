@@ -4,6 +4,10 @@ on:
   push:
     branches: [main]
   pull_request:
+  schedule:
+    # Monday 04:00 UTC (09:30 IST): catch breakage from new Flutter/Dart releases.
+    - cron: '0 4 * * 1'
+  workflow_dispatch:
 
 permissions:
   contents: read
